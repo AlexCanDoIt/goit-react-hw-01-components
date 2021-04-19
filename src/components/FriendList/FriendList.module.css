@@ -1,0 +1,29 @@
+.list {
+  width: 200px;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 3px rgba(0,128,128,0.8);
+}
+
+.status {
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+
+.statusGreen {
+  composes: status;
+  background-color: green;
+}
+
+.statusRed{
+  composes: status;
+  background-color: red;
+}
